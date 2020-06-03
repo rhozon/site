@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Econ. Rodrigo H. Ozon: Portfólio de Projetos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="aprerevealjs2_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="aprerevealjs2_files/reveal.js-3.3.0.1/css/theme/sky.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <link href="aprerevealjs2_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+    <link href="aprerevealjs2_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Econ. Rodrigo H. Ozon: Portfólio de Projetos</h1>
+</section>
+
+<section class="slide level2">
+
+<p><img data-src="C:/Users/rodri/Desktop/RHO/Gitpage/Pagina%20Nova/me.jpg" /></p>
+<p><span class="math display">\[
+\widehat{Y}_{t+n}=\mbox{(Only God knows)}+0\epsilon
+\]</span></p>
+<p><em>Where:</em></p>
+<p>(Only God Knows) <span class="math inline">\(=\)</span> Jr 29:11</p>
+<p><span class="math inline">\(0\epsilon=\)</span> he is omniscient, omnipresent and omnipotent</p>
+</section>
+<section class="slide level2">
+
+<p><strong>Conteúdo</strong></p>
+<ul>
+<li class="fragment">Apresentação pessoal</li>
+<li class="fragment">Cargos e serviços prestados</li>
+<li class="fragment">Entregas e projetos por onde atuei</li>
+<li class="fragment">Meus profiles</li>
+<li class="fragment">Formação Acadêmica, habilidades e know how</li>
+</ul>
+</section>
+<section id="apresentação-pessoal" class="slide level2">
+<h2>Apresentação pessoal</h2>
+<p><em>Rodrigo Hermont Ozon, 36 anos, economista, ocupei os seguintes cargos:</em></p>
+<ul>
+<li class="fragment"><em>Data Scientist</em></li>
+<li class="fragment">Coordenador de Projetos, Captação de Recursos</li>
+<li class="fragment">Pesquisador e Professor</li>
+<li class="fragment">Consultoria Econômica</li>
+</ul>
+</section>
+<section id="cargos-e-serviços-prestados" class="slide level2">
+<h2>Cargos e serviços prestados</h2>
+<p><strong>Já trabalhei nas seguintes áreas:</strong></p>
+<ul>
+<li class="fragment">Mercado Financeiro</li>
+<li class="fragment">Pesquisa científica</li>
+<li class="fragment">Terceiro Setor</li>
+<li class="fragment">Indústria</li>
+<li class="fragment">Tecnologia (start up)</li>
+<li class="fragment">Professor universitário</li>
+</ul>
+</section>
+<section id="resumo-dos-serviços-prestados" class="slide level2">
+<h2>Resumo dos serviços prestados</h2>
+<p><strong>Como <em>Data Scientist</em>:</strong></p>
+<ul>
+<li class="fragment">Construção de indicadores de perfomance (KPIs), indicadores de risco (KRIs), relatórios gerenciais dinâmicos em tempo real.</li>
+<li class="fragment">Construção de dashboard de visualização em tempo real (Business Intelligence) de dados financeiros (ativos financeiros) e informações contábeis para a alta gestão</li>
+<li class="fragment">Visualização de dados estatísticos da economia paranaense (visão de cadeias produtivas industriais)</li>
+<li class="fragment">Construção de Índice de Desenvolvimento Empresarial com base em dados secundários da economia;</li>
+</ul>
+</section>
+<section id="resumo-dos-serviços-prestados-1" class="slide level2">
+<h2>Resumo dos serviços prestados</h2>
+<p><strong>Como coordenador de projetos</strong></p>
+<ul>
+<li class="fragment">Captação de recursos para execução do projeto submetendo proposta a diversos órgãos de financiamento conforme suas exigências (geralmente editais/chamadas específicas)</li>
+<li class="fragment">Submissão, planejamento e reprogramação de plano de projetos (implantação de ferramental de gestão de projetos)</li>
+<li class="fragment">Fui avaliador dos projetos que as empresas candidatavam ao edital Senai/Sesi de Inovação. Também fui avaliador no PAPPE/Subvenção parceria IBQP/Sebrae</li>
+</ul>
+</section>
+<section id="resumo-dos-serviços-prestados-2" class="slide level2">
+<h2>Resumo dos serviços prestados</h2>
+<p><strong>Como pesquisador e professor:</strong></p>
+<ul>
+<li class="fragment">Fui pesquisador bolsista da Fundação Araucária e FIEP sobre cadeias produtivas industriais paranaenses, isso me deu know how para trabalhar com estudos/pesquisa de mercado de alto nível quando fiz mestrado em desenvolvimento econômico na UFPR</li>
+<li class="fragment">Professor de pós-graduação na FESP no MBA em Gerenciamento de Projetos na disciplina de Gerenciamento de Integração de Projetos metodologia PmBok/PMI</li>
+<li class="fragment"><small>Lecionei na graduação: Mercados Financeiros, Economia Monetária e Financeira, Métodos Quantitativos, Controle Estatístico de Processos, Administração Financeira, Indicadores de Desempenho da Indústria.</small></li>
+</ul>
+</section>
+<section id="resumo-dos-serviços-prestados-3" class="slide level2">
+<h2>Resumo dos serviços prestados</h2>
+<ul>
+<li class="fragment">Como consultor viajei os estados brasileiros contribuindo para a implantação e melhoria do projeto ID-MPE (mais detalhes a seguir ) para os Sebraes UF.</li>
+<li class="fragment">Também faço consultoria econômica para empresas e pessoas físicas com planos de investimentos;</li>
+</ul>
+</section>
+<section id="entregas-e-projetos-por-onde-atuei" class="slide level2">
+<h2>Entregas e projetos por onde atuei</h2>
+<p><strong>Projetos e trabalhos feitos</strong></p>
+<p>Consulte meus projetos que estão disponíveis na <em>web</em>:</p>
+<p>*Como <em>Data Scientist</em>:</p>
+<ul>
+<li class="fragment"><a href="http://www.leg.ufpr.br/doku.php/projetos:ehlers:volprev">Modelagem de Volatilidade em Séries Financeiras (Laboratório de Estatística e Geoinformação/UFPR)</a></li>
+<li class="fragment"><a href="https://rhoportolio.blogspot.com/2019/09/salarios-de-admissao-por-cargo.html">Estudo de Mercado para parametrização salarial para contratação de profissionais (visualização feita em Power BI com os microdados do CAGED/Min. Trabalho e Emprego)</a></li>
+<li class="fragment"><a href="http://sites.pr.sebrae.com.br/leigeral/wp-content/uploads/sites/35/2014/02/Cartilha_IDMPE_PR_-_junho_2011.pdf">Índice de Desenvolvimento Municipal das Micro e Pequenas Empresas, 2011 (SEBRAE/IBQP)</a></li>
+</ul>
+</section>
+<section id="entregas-e-projetos-por-onde-atuei-1" class="slide level2">
+<h2>Entregas e projetos por onde atuei</h2>
+<ul>
+<li class="fragment"><a href="http://sites.pr.sebrae.com.br/leigeral/wp-content/uploads/sites/35/2014/09/IDME_2013_web.pdf">IDMPE (edição 2009/2010 para Sebrae PR)</a></li>
+</ul>
+<ul>
+<li class="fragment"><em>As demais publicações dos projetos descritos no meu <a href="https://www.linkedin.com/in/rodrigohermontozon/">LinkedIn</a> não foram publicados na web por decisão de seus custeadores.</em></li>
+</ul>
+</section>
+<section id="projetos-e-trabalhos-feitos" class="slide level2">
+<h2>Projetos e trabalhos feitos</h2>
+<p><strong>Dos projetos que coordenei e executei e não estão disponíveis na <em>web</em> destaco:</strong></p>
+<ul>
+<li class="fragment">No Grupo Bitcoin Banco (GBB): Análise e Indicadores de Risco (área de atendimento para GBB), Automação dos relatórios de Desempenho Gerencial da área de Atendimento (chat); Indicador de Desempenho e Performance da Área de Atendimento; Relatório realtime dos dados do e-commerce Get4Bit oriundos do Google Analitycs; Visualização de Dados do Setor de Compras do GBB ( Vide meu <a href="https://www.linkedin.com/in/rodrigohermontozon/">LinkeDin</a>)</li>
+</ul>
+</section>
+<section id="projetos-e-trabalhos-feitos-1" class="slide level2">
+<h2>Projetos e trabalhos feitos</h2>
+<ul>
+<li class="fragment">Na FIEP: <a href="http://www.fiepr.org.br/para-empresas/estudos-economicos/sondagem-industrial-1-20654-238938.shtml">Fiz análises setoriais de cadeias produtivas industriais paranaenses, contribui para a e apoiei as negociações coletivas salariais de alguns sindicatos filiados. Também fiz captação de recursos submetendo projetos a instituições de financiamento como Banco do Brasil, FINEP, PNUD/ONu etc.</a></li>
+<li class="fragment"><a href="http://ibqp.org.br/">No IBQP</a> além do IDMPE fui voluntário/avaliador do <a href="http://www.ibqp.org.br/projetos/movimento-parana-competitivo/sobre-mpc/">Movimento Paraná Competitivo da Fundação Nacional da Qualidade</a></li>
+</ul>
+</section>
+<section id="perfis-públicos-posts-de-meus-trabalhos" class="slide level2">
+<h2>Perfis Públicos (posts) de meus trabalhos</h2>
+<p><strong>Acesse minhas publicações (visualizações de dados e linhas de códigos) nos seguintes endereços:</strong></p>
+<ul>
+<li class="fragment">No GitHub: <a href="http://github.com/rhozon/" class="uri">http://github.com/rhozon/</a></li>
+<li class="fragment">Na galeria do Tableau Public: <a href="https://public.tableau.com/profile/rodrigo.h.ozon#" class="uri">https://public.tableau.com/profile/rodrigo.h.ozon#</a>!</li>
+<li class="fragment">Protótipo de visualização de dados para a FIEP: <a href="http://fiepdesenvolvimento.blogspot.com/" class="uri">http://fiepdesenvolvimento.blogspot.com/</a></li>
+<li class="fragment">Perfil no DrivenData: <a href="https://www.drivendata.org/users/rhozon/" class="uri">https://www.drivendata.org/users/rhozon/</a></li>
+<li class="fragment">Publicações no RPubs <a href="https://rpubs.com/rhozon" class="uri">https://rpubs.com/rhozon</a></li>
+</ul>
+</section>
+<section id="habilidades-e-know-how" class="slide level2">
+<h2>Habilidades e know how</h2>
+<p><strong>Formação Acadêmica</strong></p>
+<ul>
+<li class="fragment"><a href="http://uniaodavitoria.unespar.edu.br/ensino/graduacao/matematica">Licenc. e Hab. Plena em Matemática pela Universidade Estadual do Paraná (2003)</a></li>
+<li class="fragment"><a href="http://www.economia.ufpr.br/">Bacharel em Ciências Econômicas pela Universidade Federal do Paraná (2008)</a></li>
+<li class="fragment"><a href="https://universidade.up.edu.br/pos-graduacao/programa-de-especializacao-docente-no-ensino-da-ciencias/">Espec. em Estratégias de Ensino e Aprendizagem na Educação Superior (Universidade Positivo trancado em 2010)</a></li>
+<li class="fragment"><a href="http://www.sociaisaplicadas.ufpr.br/portal/depecon/pos-graduacao/">Mestre em Desenvolvimento Econômico pela UFPR (2011)</a></li>
+<li class="fragment"><a href="https://www.cruzeirodosulvirtual.com.br/">Tecnologia em Ciência de Dados pela Univ. Cruzeiro do Sul (previsão de conclusão em 2022)</a></li>
+</ul>
+</section>
+<section id="certificações" class="slide level2">
+<h2>Certificações</h2>
+<p>Últimas e destaques das principais:</p>
+<ul>
+<li class="fragment">Certificação profissional em Ciência de Dados pela IBM (em conclusão até dez/2019)</li>
+<li class="fragment"><a href="https://github.com/rhozon/Introdu-o-Lei-Geral-de-Prote-o-de-Dados/blob/master/Rodrigo%20Hermont%20Ozon_certificado.pdf">Introdução à Lei Brasileira de Proteção de Dados Pessoais (Escola Virtual do Governo)</a></li>
+<li class="fragment"><a href="https://github.com/rhozon/Econometria-B-sica-Aplicada-USP/blob/master/Econometria%20B%C3%A1sica%20Aplicada%20-%20Tarefas.pdf">Econometria Básica Aplicada (Universidade de São Paulo)</a></li>
+<li class="fragment">Econometrics: Methods and Applications (The Rotterdam University)</li>
+</ul>
+</section>
+<section id="certificações-1" class="slide level2">
+<h2>Certificações</h2>
+<ul>
+<li class="fragment">Enjoyable Econometrics (The Rotterdam University)</li>
+<li class="fragment"><a href="https://github.com/rhozon/Financial-Markets-Yale-University-/blob/master/Financial%20Markets%20-%20Tarefas.pdf">Financial Markets (Yale University)</a></li>
+<li class="fragment">Applying Data Analitycs in Marketing (University of Illinois at Urbana-Champaign)</li>
+<li class="fragment">Predictive Analytics with R (Udemy)</li>
+</ul>
+</section>
+<section id="principais-cursos" class="title-slide slide level1"><h1>Principais cursos</h1><ul>
+<li class="fragment">Bitcoin and CryptoCurrency Technologies pela Universidade de Princeton (2019)</li>
+<li class="fragment">Experimentando com o Laboratory for Simulation Dynamics fronteiras e perspectivas (UFPR, 2009)</li>
+<li class="fragment">Indicadores de Gestão pelo IBQP (2010)</li>
+<li class="fragment">Modelos Matemáticos em finanças I e II pela UFPR (2008)</li>
+<li class="fragment">Instrumentos Financeiros Aplicados à Decisões de Mercado (2005)</li>
+<li class="fragment">Softwares Livres de Gestão pelo IBQP (2008)</li>
+</ul>
+<p><small>*Para consultar todos os cursos feitos, <a href="http://lattes.cnpq.br/3532649625879285">consulte meu CV na Plataforma Lattes do CNPq</a></small></p></section>
+<section><section id="conhecimentos-computacionais" class="title-slide slide level1"><h1>Conhecimentos computacionais</h1><p>Conhecimentos Computacionais Linguagens:</p>
+<ul>
+<li class="fragment"><span class="math inline">\(\LaTeX+\)</span>R (Overleaf, Knitr, R Markdown, Shiny), VBA (Excel), SQL, DAX, LaTeX2HTML, Matlab (C ou C++), Stata, SPSS, Eviews</li>
+</ul>
+<p>Bibliotecas e frameworks:</p>
+<ul>
+<li class="fragment">Matplotlib, Gnuplot, GeoGebra e Data.table</li>
+</ul>
+<p>Ferramentas e Plataformas</p>
+<ul>
+<li class="fragment">Microsoft Power BI, Tableau Public, Power Point, AWS, Data Studio, Git e Github, RStudio, Visual Studio, Excel</li>
+</ul></section><section id="armazenamento-de-dados-infraestrutura-e-cloud" class="slide level2">
+<h2>Armazenamento de dados, infraestrutura e cloud</h2>
+<ul>
+<li class="fragment">SQL Server, MySQL, Oracel, JSON, Azure</li>
+</ul>
+<p>Atividades e Conceitos</p>
+<ul>
+<li class="fragment">ETL, criação de webcrawler, processamento em tempo real, modelagem de banco de dados, visualização de dados, arquitetura de dados, estatísticas, formalismo e modelagem matemática, teste AB</li>
+</ul>
+</section><section id="especialidades" class="slide level2">
+<h2>Especialidades</h2>
+<ul>
+<li class="fragment"><a href="https://github.com/rhozon/Portfolio">Consulte o mindmap das minhas especialidades em https://github.com/rhozon/Portfolio</a></li>
+</ul>
+<p>Ou veja a apresentação <a href="https://www.slideshare.net/slideshow/embed_code/key/ubXw19HpTUIq1N">em pdf deste material em slideshare</a></p>
+</section></section>
+<section id="indicadores-de-produção-científica" class="title-slide slide level1"><h1>Indicadores de produção científica</h1><ul>
+<li class="fragment">1 Livro publicado (e-book)</li>
+<li class="fragment">1 Artigo completo publicado em periódico</li>
+<li class="fragment">1 Livro publicado/organizado ou edições</li>
+<li class="fragment">13 Textos em jornais de notícias/revistas</li>
+<li class="fragment">1 Artigo aceito para publicação</li>
+<li class="fragment">2 Apresentações de trabalhos</li>
+<li class="fragment">1 Outras publicações bibliográficas</li>
+<li class="fragment">1 Assessoria/consultoria parecerista</li>
+<li class="fragment">3 Trabalhos técnicos</li>
+<li class="fragment">15 Demais tipos de produção técnica</li>
+</ul></section>
+<section id="indicadores-de-produção-científica-1" class="title-slide slide level1"><h1>Indicadores de produção científica</h1><ul>
+<li class="fragment">1 Participação em bancas de comissões julgadoras</li>
+<li class="fragment">1 Participação em eventos, congressos, exposições e feiras</li>
+<li class="fragment">5 Orientações e supervisões em andamento</li>
+<li class="fragment">1 Capitulo de livro escrito <a href="http://ibqp.org.br/wp-content/uploads/2016/10/Empreendedorismo-no-Brasil-2011-Relat%C3%83%C2%B3rio.pdf">(Pesquisa Global Enterpreneuship Monitor (GEM))</a></li>
+</ul></section>
+<section><section id="contato" class="title-slide slide level1"><h1>Contato</h1><ul>
+<li class="fragment"><a href="https://api.whatsapp.com/send?phone=5541988382904&amp;text=Oi%20Rodrigo%2C%20vi%20seu%20portf%C3%B3lio%20no%20GitHub...">Me envie WhatsApp</a></li>
+<li class="fragment"><a href="mailto:rodrigoozon@yahoo.com.br">Me envie e-mail</a></li>
+<li class="fragment">Obrigado!</li>
+</ul></section><section class="slide level2">
+
+<blockquote>
+<p><em>Porque sou eu que conheço os planos que tenho para vocês“, diz o Senhor,”planos de fazê-los prosperar e não de lhes causar dano, planos de dar-lhes esperança e um futuro.</em> Jeremias 29:11</p>
+</blockquote>
+</section></section>
+    </div>
+  </div>
+
+  <script src="aprerevealjs2_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="aprerevealjs2_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+
+        chalkboard: {
+          toggleNotesButton: true,
+          theme: 'whiteboard',
+        },
+
+        keyboard: {
+          67: function() { RevealChalkboard.toggleNotesCanvas() },    // toggle notes canvas when 'c' is pressed
+          66: function() { RevealChalkboard.toggleChalkboard() }, // toggle chalkboard when 'b' is pressed
+          46: function() { RevealChalkboard.clear() },    // clear chalkboard when 'DEL' is pressed
+           8: function() { RevealChalkboard.reset() },    // reset chalkboard data on current slide when 'BACKSPACE' is pressed
+          68: function() { RevealChalkboard.download() }, // downlad recorded chalkboard drawing when 'd' is pressed
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'aprerevealjs2_files/reveal.js-3.3.0.1/plugin/chalkboard/chalkboard.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
