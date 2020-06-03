@@ -13,13 +13,13 @@ navbar:
     - text: "More"
       icon: fa-gear
       menu:
-        - text: "Ensino"
+        - text: "ENSINO"
         - text: "Materiais e consultas"
           href: Cursos.html
         - text: "Recomendações de estudos"
           href: Cursados.html
         - text: "---------"
-        - text: "Apps desenvolvidos"
+        - text: "APPs DESENVOLVIDOS"
         - text: "Exercícios resolvidos"
           href: tickz.html
         - text: "Exemplos desenvolvidos"
