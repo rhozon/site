@@ -1,0 +1,81 @@
+---
+title: "Materiais e Publicações"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+***
+
+>> _"Não são tanto as coisas que não sabemos que nos metem em confusões. São as coisas que pensamos que sabemos."_
+Artemus Ward
+
+***
+
+Olá estudante ! Seja bem-vindo a minha página de materiais, arquivos para download e bons estudos!
+
+
+![](C:\Users\rodri\Desktop\RHO\Gitpage\Pagina Nova\programmerstudent.jpg)
+
+
+### Econometria interativa com Overleaf, knitr e R
+
+Aprenda econometria sem complicações usando técnicas de produção de relatórios dinâmicos, visualizações de dados com gráficos interativos e filtros de seleção de uma maneira profissional e inovadora.
+
+*Material didático:
+
+  + Vídeo aula do curso de Econometria interativa no Youtube
+  
+  + Apostila de introdução à econometria (colocar link para as pastas Github)
+  
+  + Arquivos de dados no formato Excel (colocar link para as pastas Github)
+
+***
+
+### Apresentações usando Beamer para integração com R para cientistas de dados
+
+Saiba como fazer apresentações profissionais com integração de dados automaticamente.
+
+*Material didático:
+
+  + Vídeo aula do curso de apresentações para _data scientists_
+  
+  + Materiais, arquivos .tex e leituras de referência
+
+***
+
+### R para estudantes de Marketing
+
+Aprenda como utilizar data science com o poderoso R e com os conceitos mercadológicos para fazer bons negócios.
+
+*Material didático:
+
+ + Vídeo aula do curso de _Data Science_ com R para Marketing
+ 
+ + Script de raspagem do Google Trends
+ 
+ + Script de raspagem do Google Analytics pro seu website
+ 
+ + Download do e-book e [página original do autor](https://bookdown.org/content/1340/)
+
+
+***
+
+#### E-books para download
+
+*Baixe nos meus repositórios os livros que você precisa consultar para seus estudos:
+
+ + R programming
+ 
+ + $\LaTeX$ 
+ 
+ + Econometria
+ 
+ + Data Science
+ 
+ + Microeconometria
+ 
+ + Ms Power BI + DAX
+ 
+ ***

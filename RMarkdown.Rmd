@@ -1,0 +1,61 @@
+---
+params:
+  symbol1: AMZN
+  symbol2: GOOG
+output: flexdashboard::flex_dashboard
+---
+
+# Relatório dinâmico HTML com R Markdown
+
+
+
+```{r include = FALSE}
+library(quantmod)
+library(dygraphs)
+
+ativo1 <- getSymbols(params$symbol1, auto.assign = FALSE,
+                    from = "2019-01-01", end = Sys.Date())
+ativo2 <- getSymbols(params$symbol2, auto.assign = FALSE,
+                    from = "2019-01-01", end = Sys.Date())
+```
+
+
+Esse relatório de exemplo capta dois gráficos integrados diretamente com o [Yahoo finance](http://finance.yahoo.com) com a última cotação de fechamento no último pregão.
+
+
+* ``r params$symbol1``
+* ``r params$symbol2``
+
+Está escrito em [R Markdown] (http://rmarkdown.rstudio.com), um formato de autoria que permite a criação fácil de documentos dinâmicos, apresentações e relatórios de R. R Markdown combina a sintaxe principal de ** markdown ** (um formato de texto simples fácil de escrever, linguagem de marcação tipo $\LaTeX$) com blocos de código ** R ** incorporados que são executados para que sua saída possa ser incluída no documento final.
+
+Column {data-width=200}
+-------------------------------------
+### ``r params$symbol1`` preço
+
+```{r echo = FALSE}
+dygraph(Cl(ativo1))
+```
+
+### ``r params$symbol2`` preço
+
+```{r echo = FALSE}
+dygraph(Cl(ativo2))
+```
+
+
+Column {data-width=200}
+-------------------------------------
+
+### ``r params$symbol1`` volume
+
+```{r echo = FALSE}
+dygraph(Vo(ativo1))
+```
+
+### ``r params$symbol2`` volume
+
+```{r echo = FALSE}
+dygraph(Vo(ativo2))
+```
+
+Reproduza esse documento utilizando o RMarkdown para os ativos que você escolher e crie uma página no GitPages com ele.

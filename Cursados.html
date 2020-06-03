@@ -11,7 +11,7 @@
 
 
 
-<title>Rodrigo Hermont Ozon</title>
+<title>Últimos cursos</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -250,6 +253,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +323,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -348,24 +424,96 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Rodrigo Hermont Ozon</h1>
+<h1 class="title toc-ignore">Últimos cursos</h1>
 
 </div>
 
 
-<p>Bem vindo ao meu portfólio!</p>
-<p><img src="C:/Users/rodri/Desktop/Novo%20site/Novo%20site/image/me.jpg" /></p>
-<p>Navegue pelo menu para conhecer um pouco mais do meu trabalho!</p>
-<p><span class="math display">\[
-\widehat{Y}_{t+n}=(\mbox{Only God knows})+0\epsilon
-\]</span></p>
-<p>Where:</p>
-<p><span class="math inline">\(\widehat{Y}_{t+n}=\)</span> Jr 29:11</p>
-<p><span class="math inline">\(0\epsilon=\)</span> He is omniscient, omnipresent and omnipotent</p>
+<p>Nesse espaço listo os últimos cursos que fiz pela web e que recomendo! Os links estarão disponíveis, pois assim que possível vou inseri-los.</p>
 <hr />
+<div id="em-inglês" class="section level1">
+<h1>Em inglês</h1>
+<div id="applying-data-analytics-in-marketing" class="section level3">
+<h3>Applying Data Analytics in Marketing</h3>
+<p><a href="https://www.coursera.org/learn/applying-data-analytics-business-in-marketing">Applying Data Analytics in Marketing: University of Illinois at Urbana-Champaign</a></p>
+<p><small><em>Sem dúvida uns dos mais interessantes cursos de data science com R para profissionais de marketing! Vale muito a pena cursar, pois é de excelente qualidade!</em></small></p>
+<hr />
+</div>
+<div id="predictive-analytics-with-r" class="section level3">
+<h3>Predictive Analytics with R</h3>
+<p>Predictive Analytics with R: Udemy</p>
+<hr />
+</div>
+<div id="econometrics-methods-and-applications" class="section level3">
+<h3>Econometrics: Methods and Applications</h3>
+<p><a href="https://www.coursera.org/learn/erasmus-econometrics">Econometrics: Methods and Applications: Erasmus University Rotterdam</a></p>
+<p><small><em>Como todo apaixonado por econometria que sou, tiro o chapéu para o professor Franses que é outro amante desse campo da Ciência da Economia</em></small></p>
+<hr />
+</div>
+<div id="microeconomics-the-power-of-markets" class="section level3">
+<h3>Microeconomics: The Power of Markets</h3>
+<p>Microeconomics: The Power of Markets: University of Pennsylvania</p>
+<hr />
+</div>
+<div id="financial-markets" class="section level3">
+<h3>Financial Markets</h3>
+<p>Financial Markets: Yale University</p>
+<hr />
+</div>
+<div id="data-science-math-skills" class="section level3">
+<h3>Data Science Math Skills</h3>
+<p><a href="https://www.coursera.org/learn/datasciencemathskills">Data Science Math Skills: Duke University</a></p>
+<p><small><em>Para todos aqueles que trilham carreira em ciência de dados, é fundamental entender a lógica matemática para compreender dados reais com mais clareza.</em></small></p>
+<hr />
+</div>
+<div id="enjoyable-econometrics" class="section level3">
+<h3>Enjoyable Econometrics</h3>
+<p><a href="https://www.coursera.org/learn/enjoyable-econometrics">Enjoyable Econometrics: Erasmus University Rotterdam</a></p>
+<p><small><em>Sou suspeito pra comentar sobre econometria né! (heheh), mas esse curso é muito interessante pois aborda o conteúdo do livro do prof. Franses! Muito massa!</em></small></p>
+<hr />
+</div>
+</div>
+<div id="em-português" class="section level1">
+<h1>Em português</h1>
+<div id="introdução-à-ciência-de-dados-2.0" class="section level3">
+<h3>Introdução à Ciência de Dados 2.0</h3>
+<p>Introdução à Ciência de Dados 2.0: Data Science Academy</p>
+<hr />
+</div>
+<div id="introdução-à-lei-brasileira-de-proteção-de-dados-pessoais" class="section level3">
+<h3>Introdução à Lei Brasileira de Proteção de Dados Pessoais</h3>
+<p>Introdução à Lei Brasileira de Proteção de Dados Pessoais: Escola Virtual do Governo</p>
+<p><small><em>Esse curso aqui vale pra todos aqueles que precisam compreender um pouco mais a respeito da Lei Geral de Proteção de Dados brasileira. Ainda que muito preliminar, é melhor do que nada!</em></small></p>
+<hr />
+</div>
+<div id="econometria-básica-aplicada" class="section level3">
+<h3>Econometria Básica Aplicada</h3>
+<p><a href="https://www.coursera.org/learn/econometria-basica-aplicada">Econometria Básica Aplicada: Universidade de São Paulo</a></p>
+<p><small><em>O curso peca pois cobra algumas questões nos quizzes em que os professores não explicam com clareza nas vídeo-aulas. Mas mesmo assim, vale a pena!</em></small></p>
+<hr />
+</div>
+<div id="google-analitycs---otimize-suas-campanhas-de-marketing-digital" class="section level3">
+<h3>Google Analitycs - Otimize suas campanhas de marketing digital</h3>
+<p>Google Analitycs - Otimize suas campanhas de marketing digital: Udemy</p>
+<p><small><em>Vale a pena praqueles que necessitam compreender um pouco melhor o que são aquelas medidas todas de tráfego, visitas, cliques por página, etc. dentre outras interessantíssimas e valiosas informações que o Google Trends fornece.</em></small></p>
+<hr />
+</div>
+<div id="microsoft-power-bi-para-data-science" class="section level3">
+<h3>Microsoft Power BI para Data Science</h3>
+<p><a href="https://www.datascienceacademy.com.br/course?courseid=microsoft-power-bi-para-data-science">Microsoft Power BI para Data Science: Data Science Academy</a></p>
+<p><small><em>Apesar da DSA cobrar por suas formações, esse curso atende a necessidade de impulsar aquelas pessoas que precisam evoluir no pensamento científico para construirem modelos de análises de dados futuramente.</em></small></p>
+<hr />
+</div>
+<div id="programação-de-computadores" class="section level3">
+<h3>Programação de Computadores</h3>
+<p>Programação de Computadores: Universidade Cruzeiro do Sul</p>
+</div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -398,6 +546,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

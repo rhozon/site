@@ -1,9 +1,36 @@
 name: "Rhozon website"
 output_dir: "."
 navbar:
-  title: "Rhozon"
+  title: "RHOzon"
+  type: default
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
-    - text: "About Me"
+    - text: "About"
+      icon: fa-info
       href: about.html
+    - text: "More"
+      icon: fa-gear
+      menu:
+        - text: "Ensino"
+        - text: "Materiais e consultas"
+          href: Cursos.html
+        - text: "Recomendações de estudos"
+          href: Cursados.html
+        - text: "---------"
+        - text: "Apps desenvolvidos"
+        - text: "Exercícios resolvidos"
+          href: tickz.html
+        - text: "Exemplos desenvolvidos"
+          href: RMarkdown.html
+ 
+  right:
+    - icon: fa-question fa-lg
+      href: https://rhozon.github.io/PortfolioRho.html
+    - icon: fa-github
+      href: https://github.com/rhozon
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/rodrigohermontozon/
+    - icon: fa-whatsapp
+      href: https://api.whatsapp.com/send?phone=5541988382904&text=

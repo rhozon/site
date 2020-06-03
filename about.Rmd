@@ -1,5 +1,25 @@
 ---
-title: "About Me"
+title: "About This Website"
 ---
 
-Why I am awesome. 
+We love econometrics!
+
+![](C:\Users\rodri\Desktop\Novo site\Novo site\image\me.jpg)
+
+Aqui você encontra:
+
++ Materais de leitura e estudos dos cursos;
+
++ Exercícios computacionais resolvidos;
+
++ Minhas publicações e conteúdos
+
++ E-books para download 
+
++ Documentação de apps e códigos para econometria 
+
++ Meu portfólio de projetos de consultoria 
+
++ Meus contatos
+
+***

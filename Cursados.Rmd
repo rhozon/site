@@ -1,0 +1,108 @@
+---
+title: "Últimos cursos"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Nesse espaço listo os últimos cursos que fiz pela web e que recomendo! Os links estarão disponíveis, pois assim que possível vou inseri-los.
+
+
+***
+
+
+# Em inglês
+
+### Applying Data Analytics in Marketing
+
+[Applying Data Analytics in Marketing: University of Illinois at Urbana-Champaign](https://www.coursera.org/learn/applying-data-analytics-business-in-marketing)
+
+<small>_Sem dúvida uns dos mais interessantes cursos de data science com R para profissionais de marketing! Vale muito a pena cursar, pois é de excelente qualidade!_</small>
+
+***
+
+### Predictive Analytics with R
+
+Predictive Analytics with R: Udemy
+
+***
+
+### Econometrics: Methods and Applications
+
+[Econometrics: Methods and Applications: Erasmus University Rotterdam](https://www.coursera.org/learn/erasmus-econometrics)
+
+<small>_Como todo apaixonado por econometria que sou, tiro o chapéu para o professor Franses que é outro amante desse campo da Ciência da Economia_</small>
+
+***
+
+### Microeconomics: The Power of Markets
+
+Microeconomics: The Power of Markets: University of Pennsylvania
+
+***
+
+### Financial Markets
+
+Financial Markets: Yale University
+
+***
+
+### Data Science Math Skills
+
+[Data Science Math Skills: Duke University](https://www.coursera.org/learn/datasciencemathskills)
+
+<small>_Para todos aqueles que trilham carreira em ciência de dados, é fundamental entender a lógica matemática para compreender dados reais com mais clareza._</small>
+
+***
+
+### Enjoyable Econometrics
+
+[Enjoyable Econometrics: Erasmus University Rotterdam](https://www.coursera.org/learn/enjoyable-econometrics)
+
+<small>_Sou suspeito pra comentar sobre econometria né! (heheh), mas esse curso é muito interessante pois aborda o conteúdo do livro do prof. Franses! Muito massa!_</small>
+
+***
+
+# Em português
+### Introdução à Ciência de Dados 2.0
+
+Introdução à Ciência de Dados 2.0: Data Science Academy
+
+***
+
+### Introdução à Lei Brasileira de Proteção de Dados Pessoais
+
+Introdução à Lei Brasileira de Proteção de Dados Pessoais: Escola Virtual do Governo
+
+<small>_Esse curso aqui vale pra todos aqueles que precisam compreender um pouco mais a respeito da Lei Geral de Proteção de Dados brasileira. Ainda que muito preliminar, é melhor do que nada!_</small>
+
+***
+
+### Econometria Básica Aplicada
+
+[Econometria Básica Aplicada: Universidade de São Paulo](https://www.coursera.org/learn/econometria-basica-aplicada)
+
+<small>_O curso peca pois cobra algumas questões nos quizzes em que os professores não explicam com clareza nas vídeo-aulas. Mas mesmo assim, vale a pena!_</small>
+
+***
+
+### Google Analitycs - Otimize suas campanhas de marketing digital
+
+Google Analitycs - Otimize suas campanhas de marketing digital: Udemy
+
+<small>_Vale a pena praqueles que necessitam compreender um pouco melhor o que são aquelas medidas todas de tráfego, visitas, cliques por página, etc. dentre outras interessantíssimas e valiosas informações que o Google Trends fornece._</small>
+
+***
+
+### Microsoft Power BI para Data Science
+
+[Microsoft Power BI para Data Science: Data Science Academy](https://www.datascienceacademy.com.br/course?courseid=microsoft-power-bi-para-data-science)
+
+<small>_Apesar da DSA cobrar por suas formações, esse curso atende a necessidade de impulsar aquelas pessoas que precisam evoluir no pensamento científico para construirem modelos de análises de dados futuramente._</small> 
+
+***
+
+### Programação de Computadores
+
+Programação de Computadores: Universidade Cruzeiro do Sul

@@ -11,7 +11,7 @@
 
 
 
-<title>Rodrigo Hermont Ozon</title>
+<title>Materiais e Publicações</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -250,6 +253,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +323,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -348,24 +424,71 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Rodrigo Hermont Ozon</h1>
+<h1 class="title toc-ignore">Materiais e Publicações</h1>
 
 </div>
 
 
-<p>Bem vindo ao meu portfólio!</p>
-<p><img src="C:/Users/rodri/Desktop/Novo%20site/Novo%20site/image/me.jpg" /></p>
-<p>Navegue pelo menu para conhecer um pouco mais do meu trabalho!</p>
-<p><span class="math display">\[
-\widehat{Y}_{t+n}=(\mbox{Only God knows})+0\epsilon
-\]</span></p>
-<p>Where:</p>
-<p><span class="math inline">\(\widehat{Y}_{t+n}=\)</span> Jr 29:11</p>
-<p><span class="math inline">\(0\epsilon=\)</span> He is omniscient, omnipresent and omnipotent</p>
 <hr />
+<blockquote>
+<blockquote>
+<p><em>“Não são tanto as coisas que não sabemos que nos metem em confusões. São as coisas que pensamos que sabemos.”</em> Artemus Ward</p>
+</blockquote>
+</blockquote>
+<hr />
+<p>Olá estudante ! Seja bem-vindo a minha página de materiais, arquivos para download e bons estudos!</p>
+<p><img src="C:/Users/rodri/Desktop/RHO/Gitpage/Pagina%20Nova/programmerstudent.jpg" /></p>
+<div id="econometria-interativa-com-overleaf-knitr-e-r" class="section level3">
+<h3>Econometria interativa com Overleaf, knitr e R</h3>
+<p>Aprenda econometria sem complicações usando técnicas de produção de relatórios dinâmicos, visualizações de dados com gráficos interativos e filtros de seleção de uma maneira profissional e inovadora.</p>
+<p>*Material didático:</p>
+<ul>
+<li><p>Vídeo aula do curso de Econometria interativa no Youtube</p></li>
+<li><p>Apostila de introdução à econometria (colocar link para as pastas Github)</p></li>
+<li><p>Arquivos de dados no formato Excel (colocar link para as pastas Github)</p></li>
+</ul>
+<hr />
+</div>
+<div id="apresentações-usando-beamer-para-integração-com-r-para-cientistas-de-dados" class="section level3">
+<h3>Apresentações usando Beamer para integração com R para cientistas de dados</h3>
+<p>Saiba como fazer apresentações profissionais com integração de dados automaticamente.</p>
+<p>*Material didático:</p>
+<ul>
+<li><p>Vídeo aula do curso de apresentações para <em>data scientists</em></p></li>
+<li><p>Materiais, arquivos .tex e leituras de referência</p></li>
+</ul>
+<hr />
+</div>
+<div id="r-para-estudantes-de-marketing" class="section level3">
+<h3>R para estudantes de Marketing</h3>
+<p>Aprenda como utilizar data science com o poderoso R e com os conceitos mercadológicos para fazer bons negócios.</p>
+<p>*Material didático:</p>
+<ul>
+<li><p>Vídeo aula do curso de <em>Data Science</em> com R para Marketing</p></li>
+<li><p>Script de raspagem do Google Trends</p></li>
+<li><p>Script de raspagem do Google Analytics pro seu website</p></li>
+<li><p>Download do e-book e <a href="https://bookdown.org/content/1340/">página original do autor</a></p></li>
+</ul>
+<hr />
+<div id="e-books-para-download" class="section level4">
+<h4>E-books para download</h4>
+<p>*Baixe nos meus repositórios os livros que você precisa consultar para seus estudos:</p>
+<ul>
+<li><p>R programming</p></li>
+<li><p><span class="math inline">\(\LaTeX\)</span></p></li>
+<li><p>Econometria</p></li>
+<li><p>Data Science</p></li>
+<li><p>Microeconometria</p></li>
+<li><p>Ms Power BI + DAX</p></li>
+</ul>
+<hr />
+</div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -398,6 +521,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
