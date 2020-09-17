@@ -59,6 +59,7 @@ Aprenda como utilizar data science com o poderoso R e com os conceitos mercadol�
  
  + Download do e-book e [página original do autor](https://bookdown.org/content/1340/)
 
+ + Versão traduzida do Bookdown [aqui](https://rhozon.github.io/rparamkt/)
 
 ***
 
